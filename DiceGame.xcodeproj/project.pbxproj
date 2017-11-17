@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C87F137E1FBDFAAE00584AD2 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87F137D1FBDFAAD00584AD2 /* music.mp3 */; };
+		C87F13811FBDFDBF00584AD2 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C87F13801FBDFDBF00584AD2 /* sound.mp3 */; };
 		C883236A1FBB282D007D93A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88323691FBB282D007D93A3 /* AppDelegate.swift */; };
 		C883236C1FBB282D007D93A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C883236B1FBB282D007D93A3 /* ViewController.swift */; };
 		C883236F1FBB282D007D93A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C883236D1FBB282D007D93A3 /* Main.storyboard */; };
 		C88323711FBB282D007D93A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88323701FBB282D007D93A3 /* Assets.xcassets */; };
 		C88323741FBB282D007D93A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C88323721FBB282D007D93A3 /* LaunchScreen.storyboard */; };
+		C8B5B46E1FBF259200497BCF /* Win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8B5B46D1FBF259200497BCF /* Win.mp3 */; };
+		C8B5B4701FBF25B100497BCF /* Lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8B5B46F1FBF25B100497BCF /* Lose.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C87F137D1FBDFAAD00584AD2 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		C87F13801FBDFDBF00584AD2 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 		C88323661FBB282D007D93A3 /* DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C88323691FBB282D007D93A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C883236B1FBB282D007D93A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,8 @@
 		C88323701FBB282D007D93A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C88323731FBB282D007D93A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C88323751FBB282D007D93A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B5B46D1FBF259200497BCF /* Win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Win.mp3; sourceTree = "<group>"; };
+		C8B5B46F1FBF25B100497BCF /* Lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Lose.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		C88323681FBB282D007D93A3 /* DiceGame */ = {
 			isa = PBXGroup;
 			children = (
+				C8B5B46D1FBF259200497BCF /* Win.mp3 */,
+				C87F13801FBDFDBF00584AD2 /* sound.mp3 */,
 				C88323691FBB282D007D93A3 /* AppDelegate.swift */,
 				C883236B1FBB282D007D93A3 /* ViewController.swift */,
 				C883236D1FBB282D007D93A3 /* Main.storyboard */,
+				C8B5B46F1FBF25B100497BCF /* Lose.mp3 */,
+				C87F137D1FBDFAAD00584AD2 /* music.mp3 */,
 				C88323701FBB282D007D93A3 /* Assets.xcassets */,
 				C88323721FBB282D007D93A3 /* LaunchScreen.storyboard */,
 				C88323751FBB282D007D93A3 /* Info.plist */,
@@ -123,7 +135,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87F137E1FBDFAAE00584AD2 /* music.mp3 in Resources */,
+				C8B5B4701FBF25B100497BCF /* Lose.mp3 in Resources */,
 				C88323741FBB282D007D93A3 /* LaunchScreen.storyboard in Resources */,
+				C87F13811FBDFDBF00584AD2 /* sound.mp3 in Resources */,
+				C8B5B46E1FBF259200497BCF /* Win.mp3 in Resources */,
 				C88323711FBB282D007D93A3 /* Assets.xcassets in Resources */,
 				C883236F1FBB282D007D93A3 /* Main.storyboard in Resources */,
 			);
